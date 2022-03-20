@@ -103,11 +103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6.csproj",
+      "projectUniqueName": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6.csproj",
       "projectName": "WebAppDemoNet6",
-      "projectPath": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6.csproj",
+      "projectPath": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6.csproj",
       "packagesPath": "C:\\Users\\skyne\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\WebAppDemoNet6\\obj\\",
+      "outputPath": "C:\\Projects\\WebAppDemoNet6\\WebAppDemoNet6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\skyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
