@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: website # optional, default is artifact
-        path: WebAppDemoNet6/website/**
+        path: /home/runner/work/GithubActionsCICD/GithubActionsCICD/website/
         if-no-files-found: error # optional, default is warn
