@@ -26,7 +26,7 @@ jobs:
     - name: Publish
       run: dotnet publish WebAppDemoNet6/WebAppDemoNet6.csproj -c Release -o website
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2.2.2
+      uses: actions/upload-artifact@v3.1.0
       with:
         name: website # optional, default is artifact
         path: /home/runner/work/GithubActionsCICD/GithubActionsCICD/website/
