@@ -73,14 +73,14 @@ jobs:
     - name: Update config
       uses: Azure/appservice-settings@v1
       with:
-      app-name: ${{ env.app-name }}
-      app-settings-json: |
-        [
-          {
-            "name": "Logging:Log´Level:Default",
-            "value": "${{ secrets.INFOLEVEL }}"
-          }
-        ]
+        app-name: ${{ env.app-name }}
+        app-settings-json: |
+          [
+            {
+              "name": "Logging:Log´Level:Default",
+              "value": "${{ secrets.INFOLEVEL }}"
+            }
+          ]
 
     - name: az cli logout
       run: az logout
